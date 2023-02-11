@@ -11,6 +11,7 @@ setup(
    license='LICENSE.txt',
    description='This is numpy basic test',
    install_requires=[
-       "pytest"
+       "pytest",
+       "numpy"
    ],
 )
