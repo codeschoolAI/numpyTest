@@ -8,4 +8,8 @@ setup(
    packages=['basicNumpyTest'],
    license='LICENSE.txt',
    description='This is numpy basic test',
+   # required library
+    install_requires=[
+        "numpy",
+    ]
 )
