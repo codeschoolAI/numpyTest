@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-   name='numpyTest',
+   name='basicNumpyTest',
    version='0.1.0',
    author='Javohir Jalilov',
    author_email='javohirjaliloff@gmail.com',
