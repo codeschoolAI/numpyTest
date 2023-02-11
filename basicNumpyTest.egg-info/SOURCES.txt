@@ -1,0 +1,9 @@
+LICENSE.txt
+setup.py
+basicNumpyTest/__init__.py
+basicNumpyTest/ex1.py
+basicNumpyTest.egg-info/PKG-INFO
+basicNumpyTest.egg-info/SOURCES.txt
+basicNumpyTest.egg-info/dependency_links.txt
+basicNumpyTest.egg-info/requires.txt
+basicNumpyTest.egg-info/top_level.txt
