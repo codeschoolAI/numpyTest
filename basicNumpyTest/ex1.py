@@ -11,7 +11,7 @@ class Array1D:
             result = False
             print("❌Incorrect, solution is not a 1D array")
         r = requests.post(url, data = {'result': result}, headers = {'Content-Type': 'application/json'})
-        print(r.json())
+        print(r.status_code)
         
 
 class ArrayZerosNxM:
