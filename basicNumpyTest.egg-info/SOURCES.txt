@@ -1,4 +1,4 @@
-LICENSE.txt
+README.md
 setup.py
 basicNumpyTest/__init__.py
 basicNumpyTest/ex1.py
