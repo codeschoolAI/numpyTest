@@ -10,7 +10,7 @@ class Array1D:
         else:
             result = False
             print("❌Incorrect, solution is not a 1D array")
-        r = requests.post(url, data = {'result': result})
+        r = requests.post(url, data = {'result': result}, headers = {'Content-Type': 'application/json'})
         print(r.json())
         
 
