@@ -1,6 +1,6 @@
 import numpy as np
 import requests
-url = "https://d098-84-54-76-160.eu.ngrok.io/colab"
+url = "https://491c-84-54-76-160.eu.ngrok.io/colab/"
 class Array1D:
     def check(self, solution):
         result = True
@@ -10,7 +10,7 @@ class Array1D:
         else:
             result = False
             print("❌Incorrect, solution is not a 1D array")
-        r = requests.post(url, data = {'result': result})
+        r = requests.post(url, data = {'result': result}, headers = {'Content-Type': 'application/json'})
         print(r.status_code)
         
 
