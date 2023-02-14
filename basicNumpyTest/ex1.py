@@ -1,11 +1,18 @@
 import numpy as np
-
+import requests
+url = "https://d098-84-54-76-160.eu.ngrok.io/colab"
 class Array1D:
     def check(self, solution):
+        result = True
         if len(solution.shape) == 1 and solution.__class__ == np.ndarray:
             print("✅Accepted")
+            
         else:
+            result = False
             print("❌Incorrect, solution is not a 1D array")
+        r = requests.post(url, data = {'result': result})
+        print(r.json())
+        
 
 class ArrayZerosNxM:
     def check(self, solution):
